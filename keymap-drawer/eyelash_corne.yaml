@@ -21,7 +21,7 @@ layers:
   - T
   - G
   - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&tb_tg_scroll'
   - $$mdi:arrow-right-bold$$
   - M
   - N
@@ -51,11 +51,11 @@ layers:
   - RIGHT GUI
   '1':
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&tb_cyc_dpi'
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&tb_mo_scroll'
   - PgUp
   - +
   - {t: '7', s: '&'}

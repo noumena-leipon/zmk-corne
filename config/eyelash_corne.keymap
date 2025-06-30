@@ -66,7 +66,7 @@
             display-name = "QWERTY";
             bindings = <
 &kp TAB                 &kp Q  &kp W  &kp F          &kp P         &kp B                                           &kp UP               &kp J                  &kp L            &kp U          &kp Y    &kp SEMI  &kp MINUS
-&kp ESCAPE              &kp A  &kp R  &kp S          &kp T         &kp G                                 &kp LEFT  &none     &kp RIGHT  &kp M                  &kp N            &kp E          &kp I    &kp O     &lt 2 APOSTROPHE
+&kp ESCAPE              &kp A  &kp R  &kp S          &kp T         &kp G                                 &kp LEFT  &tb_tg_scroll    &kp RIGHT  &kp M                  &kp N            &kp E          &kp I    &kp O     &lt 2 APOSTROPHE
 &mt LEFT_CONTROL GRAVE  &kp Z  &kp X  &kp C          &kp D         &kp V                 &kp CAPSLOCK              &kp DOWN             &kp K                  &kp H            &kp COMMA      &kp DOT  &kp FSLH  &mt RIGHT_ALT BACKSLASH
                                       &gui_capsword  &lt 1 DELETE  &mt LEFT_SHIFT ENTER                                                 &mt RIGHT_SHIFT SPACE  &lt 1 BACKSPACE  &kp RIGHT_GUI
             >;
@@ -77,7 +77,7 @@
 
         layer_1 {
             bindings = <
-&trans  &trans     &mkp RCLK       &mkp MCLK       &mkp LCLK  &trans                             &kp PAGE_UP               &kp PLUS      &kp N7        &kp N8  &kp N9  &kp N0     &kp MINUS
+&trans  &tb_cyc_dpi    &mkp RCLK       &mkp MCLK       &mkp LCLK  &tb_mo_scroll                           &kp PAGE_UP               &kp PLUS      &kp N7        &kp N8  &kp N9  &kp N0     &kp MINUS
 &trans  &kp LC(A)  &kp LC(C)       &kp UP_ARROW    &kp LC(V)  &kp LC(LS(V))            &kp HOME  &rgb_ug RGB_TOG  &kp END  &kp ASTERISK  &kp N4        &kp N5  &kp N6  &kp EQUAL  &kp LBKT
 &trans  &kp LC(Z)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp LC(X)      &trans              &kp PAGE_DOWN             &kp DOT       &kp NUMBER_1  &kp N2  &kp N3  &kp FSLH   &kp RBKT
                                    &trans          &trans     &trans                                                       &trans        &trans        &trans
